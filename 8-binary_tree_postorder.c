@@ -20,4 +20,3 @@ void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
     /* Call the provided function for the current node's value */
     func(tree->n);
 }
-

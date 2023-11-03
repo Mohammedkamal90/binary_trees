@@ -1,0 +1,4 @@
+Inserting the value n: O(log n)
+Extracting the root node: O(log n)
+Searching for a node in a binary heap of size n: O(n)
+These time complexities are typically stated in terms of the height of the binary heap, which is O(log n) for insertion and extraction operations. However, when searching for a specific node, you may have to potentially traverse all n elements, leading to a linear time complexity of O(n) in the worst case.
